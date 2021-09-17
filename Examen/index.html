@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+
+
+    <head>
+        <link rel="shortcut icon">
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+         <link rel="stylesheet" href="./css/style.css">
+        <title>
+            Dictionary
+        </title>
+        <body>
+
+            <div class="container"> 
+            
+                <center> <h1> Diccionario</h1>  </center>
+                <br>
+                <center> <p> Bienvenido al dicccionario de ingles, ingresa una palabra para traducirla y definirla</p></center>
+                <br>
+
+            
+           <center><input id="Text-input"type="search"placeholder="Escribir...">    </center>
+           <br>
+
+           <center> <button id="enviar" type="button" >Buscar</button></center>
+           <br>
+           <table class="table table-bordered table-hover">
+            <thead>
+                <th class="column-header">Definition</th>
+                <th class="column-header">PartOfSpeech</th>
+                <th class="column-header">Example</th>
+            </thead>
+            <tbody id="body-table">
+                    <td id="td-D"></td>
+                    <td id="td-w"></td>
+                    <td id="td-E"></td>
+
+            </tbody>
+
+        </table>
+
+
+        </div>
+        <script src="js/main.js"></script>
+        </body>
+    </head>
+</html>
